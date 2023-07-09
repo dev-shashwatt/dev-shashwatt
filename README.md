@@ -1,3 +1,4 @@
+![logo](https://github.com/dev-shashwatt/dev-shashwatt/blob/main/IMG_1136.jpeg)
 <h1 align="center"> 🧑🏻‍💻 ~ shashwat</h1>
 <h3 align="center">a passionate teen geek</h3>
 
