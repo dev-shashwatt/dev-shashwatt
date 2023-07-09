@@ -1,8 +1,6 @@
 ![logo](https://github.com/dev-shashwatt/dev-shashwatt/blob/main/IMG_1136.jpeg)
 <h3 align="left">a passionate teen geek</h3>
 
-<p align="left"> <a href="https://twitter.com/shashwatt_py" target="blank"><img src="https://img.shields.io/twitter/follow/shashwatt_py?logo=twitter&style=for-the-badge" alt="shashwatt_py" /></a> </p>
-
 - 🌱 currently learning **frameworks and SQl**
 
 - 📂 all projects available at [https://github.com/dev-shashwatt?tab=repositories](https://github.com/dev-shashwatt?tab=repositories)
