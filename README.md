@@ -1,6 +1,7 @@
 ![logo](https://github.com/dev-shashwatt/dev-shashwatt/blob/main/IMG_1136.jpeg)
 <h3 align="left">a passionate teen geek</h3>
 
+- 💻 developer badge holder at discord.com
 - 🌱 currently learning **frameworks and SQl**
 
 - 📂 all projects available at [https://github.com/dev-shashwatt?tab=repositories](https://github.com/dev-shashwatt?tab=repositories)
