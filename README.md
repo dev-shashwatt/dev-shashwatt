@@ -2,8 +2,6 @@
 <h1 align="center"> 🧑🏻‍💻 ~ shashwat</h1>
 <h3 align="center">a teen geek</h3>
 
-<p align="left"> <a href="https://twitter.com/shashwatt_py" target="blank"><img src="https://img.shields.io/twitter/follow/shashwatt_py?logo=twitter&style=for-the-badge" alt="shashwatt_py" /></a> </p>
-
 - 🌱 currently learning **frameworks and SQl**
 
 - 📂 all projects available at [https://github.com/dev-shashwatt?tab=repositories](https://github.com/dev-shashwatt?tab=repositories)
