@@ -1,8 +1,7 @@
 ![logo](https://github.com/dev-shashwatt/dev-shashwatt/blob/main/IMG_1136.jpeg)
 <h1 align="center"> 🧑🏻‍💻 ~ shashwat</h1>
-<h3 align="center">a teen geek</h3>
 
-- 🌱 currently learning **frameworks and SQl**
+- 🌱  learning **frameworks and SQl**
 
 - 📂 all projects available at [https://github.com/dev-shashwatt?tab=repositories](https://github.com/dev-shashwatt?tab=repositories)
 
