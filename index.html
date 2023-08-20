@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style/swiper.css" />
     <title>shashwat-under constructionnnn</title>
-    <style type="text/tailwindcss">
+    <style>
         @layer utilities {
             .nav-items {
                 @apply cursor-pointer;
@@ -22,7 +22,7 @@
 <body class="bg-[var(--bg-primary)] text-[var(--color-primary)]">
     <!-- NAV section -->
     <div aria-label="menu"
-        class="z-30 grid transition grid-cols-3 md:hidden fixed translate-y-52 bottom-0 bg-[var(--bg-container-primary)] w-full items-center justify-center border-t border-t-[var(--border-secondary)] text-[var(--color-primary) text-sm">
+        class="z-30 grid transition grid-cols-3 md:hidden fixed translate-y-52 bottom-0 bg-[var(--bg-container-primary)] w-full items-center justify-center border-t border-t-[var(--border-secondary)] text-[var(--color-primary)] text-sm">
         <a href="#home" class="menu-link flex flex-col items-center justify-center py-4">
             <i class="uil uil-estate"></i>
             Home
@@ -38,88 +38,81 @@
     <nav
         class="flex sticky px-2 relative -top-1 z-10 drop-shadow-lg justify-between items-center h-12 w-full bg-[var(--bg-secondary)] text-[var(--color-secondary)] border-b border-b-[var(--border-secondary)]">
         <div class="container mx-auto flex justify-between">
-            <div class=""><img src="./assets/logo.png" class="h-6 w-6"></div>
+            <div class=""><img src="./assets/logo.png" class="h-6 w-6" alt="Logo"></div>
             <ul class="hidden md:flex gap-8 text-xs text-[var(--color-secondary)] nav-links">
-                <a href="#home">
-                    <li class="nav-items active-nav-link">Home</li>
-                </a>
-                <a href="#aboutMe">
-                    <li class="nav-items">About</li>
-                </a>
-                <a href="#contact">
-                    <li class="nav-items">Contact</li>
-                </a>
+                <li class="nav-items"><a href="#home">Home</a></li>
+                <li class="nav-items"><a href="#aboutMe">About</a></li>
+                <li class="nav-items"><a href="#contact">Contact</a></li>
             </ul>
             <i class="block md:hidden uil uil-bars pr-2 open-menu"></i>
         </div>
     </nav>
 
     <!-- Hero section -->
-<section id="home"
-    class="h-96 flex flex-col gap-4 items-center justify-center bg-[var(--bg-secondary)] text-[var(--color-secondary)]">
-    <img src="./assets/profile.png" class="h-16 w-16 rounded-full bg-[var(--effect-color)]" />
-    <h2 class="text-2xl font-medium text-center w-60">
-        🧑🏻‍💻 ~ shashwat
-        <div class="text-xs font-thin">
-            A passionate and dedicated coding freelancer with a love for turning ideas into functional and elegant digital solutions.
-        </div>
-    </h2>
+    <section id="home"
+        class="h-96 flex flex-col gap-4 items-center justify-center bg-[var(--bg-secondary)] text-[var(--color-secondary)]">
+        <img src="./assets/profile.png" class="h-16 w-16 rounded-full bg-[var(--effect-color)]" alt="Profile Image" />
+        <h2 class="text-2xl font-medium text-center w-60">
+            🧑🏻‍💻 ~ shashwat
+            <div class="text-xs font-thin">
+                A passionate and dedicated coding freelancer with a love for turning ideas into functional and elegant digital solutions.
+            </div>
+        </h2>
         <div class="flex gap-4">
-    <a href="https://github.com/dev-shashwatt">
-        <i class="uil uil-github-alt cursor-pointer text-2xl"></i>
-    </a>
-    <a href="https://www.instagram.com/shashwat_mukul/">
-        <i class="uil uil-instagram cursor-pointer text-2xl"></i>
-    </a>
-</div>
+            <a href="https://github.com/dev-shashwatt">
+                <i class="uil uil-github-alt cursor-pointer text-2xl"></i>
+            </a>
+            <a href="https://www.instagram.com/shashwat_mukul/">
+                <i class="uil uil-instagram cursor-pointer text-2xl"></i>
+            </a>
+        </div>
         <button class="text-sm rounded-full py-2 px-4 bg-[var(--red)]">
-    <a href="#contact">Work with me</a>
+            <a href="#contact">Work with me</a>
         </button>
+    </section>
 
     <!-- Container -->
     <div class="flex flex-col container mx-auto p-4">
-<!-- About me -->
-<section class="flex flex-col gap-6 pt-16" id="aboutMe">
-    <h2 class="text-xl font-bold">About Me</h2>
-    <div class="flex gap-6">
-        <img src="./assets/profile.png"
-            class="hidden md:block h-16 w-16 rounded-full bg-[var(--bg-secondary)]" />
-        <div
-            class="grid grid-cols-1 md:grid-cols-3 shadow-lg bg-[var(--bg-container-primary)] rounded-lg text-[var(--color-info)] text-xs gap-6 p-6">
-            <div class="flex flex-1 col-span-1 justify-between flex-col">
-                <div>
-                    <ul class="list-disc pl-4">
-                        <li>
-                            Crafting captivating user interfaces using modern frameworks and libraries
-                        </li>
-                        <li>
-                            Architecting scalable and secure server-side systems
-                        </li>
-                        <li>
-                            A developer with expertise in Python and Arduino
-                        </li>
-                        <li>
-                            Currently enrolled as a developer at discord.com
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="flex flex-col gap-6 pt-6" id="experience">
-    <div class="flex flex-1 col-span-2">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 w-full">
-            <div class="flex flex-col justify-start mb-2 gap-2">
-                <div class="flex justify-between">
-                    <div>Main - Python & Arduino</div>
-                    <div>78%</div>
-                </div>
-                <div class="bg-gray-300 h-2 rounded-full">
-                    <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% h-full rounded-full w-[60%]">
+        <!-- About me -->
+        <section class="flex flex-col gap-6 pt-16" id="aboutMe">
+            <h2 class="text-xl font-bold">About Me</h2>
+            <div class="flex gap-6">
+                <img src="./assets/profile.png"
+                    class="hidden md:block h-16 w-16 rounded-full bg-[var(--bg-secondary)]" alt="Profile Image" />
+                <div
+                    class="grid grid-cols-1 md:grid-cols-3 shadow-lg bg-[var(--bg-container-primary)] rounded-lg text-[var(--color-info)] text-xs gap-6 p-6">
+                    <div class="flex flex-1 col-span-1 justify-between flex-col">
+                        <ul class="list-disc pl-4">
+                            <li>
+                                Crafting captivating user interfaces using modern frameworks and libraries
+                            </li>
+                            <li>
+                                Architecting scalable and secure server-side systems
+                            </li>
+                            <li>
+                                A developer with expertise in Python and Arduino
+                            </li>
+                            <li>
+                                Currently enrolled as a developer at discord.com
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="flex flex-col gap-6 pt-6" id="experience">
+            <div class="flex flex-1 col-span-2">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 w-full">
+                    <div class="flex flex-col justify-start mb-2 gap-2">
+                        <div class="flex justify-between">
+                            <div>Main - Python & Arduino</div>
+                            <div>78%</div>
+                        </div>
+                        <div class="bg-gray-300 h-2 rounded-full">
+                            <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% h-full rounded-full w-[60%]"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify
             <div class="flex flex-col justify-start mb-2 gap-2">
                 <div class="flex justify-between">
                     <div>Web - HTML5 & CSS</div>
