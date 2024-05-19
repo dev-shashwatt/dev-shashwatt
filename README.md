@@ -1,11 +1,11 @@
 ![logo](https://github.com/dev-shashwatt/dev-shashwatt/blob/main/IMG_1136.jpeg)
 <h1 align="center"> 🧑🏻‍💻 ~ shashwat</h1>
 
-- 🌱  learning **frameworks and SQl**
+- **backend dev**
 
-- 📂 all projects available at [https://github.com/dev-shashwatt?tab=repositories](https://github.com/dev-shashwatt?tab=repositories)
+- all projects available at [https://github.com/dev-shashwatt?tab=repositories](https://github.com/dev-shashwatt?tab=repositories)
 
-- 📫 reach me at **shashwatmukul2007@gmail.com**
+- reach me on **shashwatmukul2007@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
