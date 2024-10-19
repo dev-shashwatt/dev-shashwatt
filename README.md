@@ -1,12 +1,6 @@
 ![logo](https://github.com/dev-shashwatt/dev-shashwatt/blob/main/IMG_1136.jpeg)
 <h1 align="center"> 🧑🏻‍💻 ~ shashwat</h1>
 
-- **backend dev**
-
-- all projects available at [https://github.com/dev-shashwatt?tab=repositories](https://github.com/dev-shashwatt?tab=repositories)
-
-- reach me on **shashwatmukul2007@gmail.com**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/shashwatt_py" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="shashwatt_py" height="30" width="40" /></a>
